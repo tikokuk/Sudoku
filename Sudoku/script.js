@@ -7,6 +7,10 @@ import {logIn} from "./classes/SignInView.js";
 window.onload = main;
 
 function main() {
+     let x = 10;
+     while (x) {
+          console.log(x--);
+     }
      if (localStorage.ticket) {
           dataStore.getSavedGame()
               .then(data =>  account.setData(data));
