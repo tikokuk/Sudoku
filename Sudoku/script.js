@@ -5,7 +5,11 @@ import {logIn} from "./classes/SignInView.js";
 //todo: test branch
 
 window.onload = main;
-
+//testing
+let i = 0; 
+while(i < 10) {
+console.log(i--)
+}
 function main() {
      let x = 10;
      while (x) {
