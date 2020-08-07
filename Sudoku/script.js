@@ -15,7 +15,5 @@ function main() {
               .then(data =>  account.setData(data));
           return;
      }
-
      logIn.setData();
-
 }
