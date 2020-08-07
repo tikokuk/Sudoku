@@ -5,6 +5,8 @@ import {logIn} from "./classes/SignInView.js";
 
 window.onload = main;
 
+const word = 'hello World';
+
 function main() {
      if (localStorage.ticket) {
           dataStore.getSavedGame()
@@ -13,5 +15,5 @@ function main() {
      }
 
      logIn.setData();
-
+     console.log(word)
 }
