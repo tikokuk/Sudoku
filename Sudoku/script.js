@@ -4,11 +4,7 @@ import {logIn} from "./classes/SignInView.js";
 
 
 window.onload = main;
-//testing
-let i = 0; 
-while(i < 10) {
-console.log(i--)
-}
+
 function main() {
      if (localStorage.ticket) {
           dataStore.getSavedGame()
